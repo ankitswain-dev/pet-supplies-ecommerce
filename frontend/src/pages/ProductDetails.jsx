@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import products from "../data/products";
+import products from "../data/Products";
 import { useCart } from "../context/CartContext";
 import { addToCart } from "../services/cartService";
 import { motion } from "framer-motion";
